@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <!-- Bootstrap CSS -->
+<style type="text/css">
+	fieldset{
+		background-color: #fff;
+		opacity: 0.9;
+		margin: 0;
+	}
+	div.container{
+		border: 1px solid;
+		margin: auto;
+		padding: 2%;
+		width: 50%;
+		background-image: url("img/baground1.jpg");
+	}
+	legend{
+		color: blue;
+	}
+	input{
+		margin-bottom: 10px;
+		width: 70%;
+		padding: 10px 12px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		resize: vertical;
+		float: right;
+	}
+	label {
+		padding: 12px 12px 12px 0;
+		display: inline-block;
+	}
+	div.col-25{
+		width: 25%;
+		float: left;
+		margin-bottom: 5px;
+	}
+	select{
+		margin-bottom: 10px;
+		width: 74.1%;
+		padding: 12px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		resize: vertical;
+		float: right;
+	}
+	legend{
+		font-size: 30px;
+	}
+	textarea{
+		width: 74.1%;
+		padding: 12px;
+		border: 1px solid #ccc;
+		resize: vertical;
+		float: right;
+	}
+	
+
+</style>
+<head>
+	<title>Form Input</title>
+</head>
+<body>
+	<div class="container">
+		<form action="#" method="POST">
+			<fieldset>
+				<legend>form input data</legend>
+				<div class="col-25">
+					<label>Nama :</label>
+				</div>
+				<input type="text" name="nama" autofocus="true" placeholder="nama" required>
+				
+				<div class="col-25">
+					<label>Tempat lahir :</label>
+				</div>
+				<input type="text" name="tempat_lahir" placeholder="tempat lahir" required>
+
+				<div class="col-25">
+					<label>Tanggal lahir :</label>
+				</div>
+				<input type="date" name="tanggal" required>
+
+				
+
+
+				<div class="col-25">
+					<label>pukul :)</label>
+				</div>
+				<input type="time" name="tanggal" required>
+
+				<div class="col-25">
+					<label>Domisili :</label>
+				</div>
+				<input type="text" name="tempat_lahir" placeholder="domisini" required>
+
+				<div class="col-25">
+					<label>Hoby :</label>
+				</div>
+				<input type="text" name="tempat_lahir" placeholder="Hoby" required>
+
+				<div class="col-25">
+					<label>Pekerjaan :</label>
+				</div>
+				<input type="text" name="tempat_lahir" placeholder="Pekerjaan" required>
+
+				<div class="col-25">
+					<label>Agama :</label>
+				</div>
+				<select required>
+					<option >--------------</option>
+					<option value="Islam">Islam</option>
+					<option value="Kristen">Kristen</option>
+					<option value="Budha">Budha</option>
+				</select>
+
+				<div class="col-25">
+					<label>No Telf :</label>
+				</div>
+				<input type="number" name="no" placeholder="nomer telf">
+
+				<div class="col-25">
+					<label>Tanggal Input</label>
+				</div>
+				<input type="datetime-local" name="tanggal" required>
+
+				<div class="col-25">
+					<label>Pesan :</label>
+				</div>
+				 <textarea placeholder="masukkan pesan"></textarea>
+
+
+
+				<button style="margin-top: 80px;">Submit</button>
+				<button style="margin-top: 80px;">Cancel</button>
+			</fieldset>
+
+		</form>
+	</div>
+</body>
+</html>
